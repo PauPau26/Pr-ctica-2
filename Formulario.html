@@ -1,12 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario MODELO</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
 </head>
+<header> 
+    <h1 class="In">
+ MODELO
+</h1>
+
+<h2 class="Ini">
+    Formulario de registro 
+   </h2>
+   <br><br><hr>
+</header>
 <body>
+   
+    <form action="/Formulario.html">
+        
+      <fieldset>
+        
+        <legend> <h3 class="Titulo"> ¿QUIEN ERES? </h3></legend>
+      
+              <label  for="name">Nombre(s)</label>
+              <br>
+              <input class="A" type="text" id="name" name="user_name">
+              <br>
+
+              <label for="mail">Apellidos</label>
+              <br>
+              <input class="A"type="text" id="lastname" name="user_name">
+              <br>
+
+              <label for="msg">Correo Electronico</label>
+              <br>
+              <input class="A"type="email" id="mail" name="user_mail">              <br>
+           
+              <p>
+
+                Fecha de nacimiento
+            </p>
+
+
+                <select class="A"name="Dia">
+            
+                  <option>Dia</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                  <option>21</option>
+                  <option>22</option>
+                  <option>23</option>
+                  <option>24</option>
+                  <option>25</option>
+                  
+                </select>
+
+                  <select class="A" name="Mes">
+            
+                    <option>Mes</option>
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembre</option>
+                </select>
+
+
+                    <select class="A" name="Año">
+            
+                        <option>Año</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        
+            
+                </select>
+            
+              </p>
+              </fieldset>
+            
+              
+               
+    </form>
+    <body>
+       
+        <form action="/Formulario.html">
+            
+                
+                
+          <fieldset>
+            <legend> <h3 class="Titulo"> ¿DE DONDE ERES? </h3></legend>
+                
+                
+                  <label for="name">Ciudad</label>
+                  <br>
+                  <input class="A" type="text" id="name" name="user_name">
+                  <br>
+                  
+                    
+                  <label for="mail">Codigo postal</label>
+                  <br>
+                  <input  class="A"type="text" id="lastname" name="user_name">
+                  <br>
+                  <p>
+                    Pais
+                  </p>
+
     
+                    <select class="A" name="Dia">
+                
+                      <option>Pais</option>
+                      <option>Argentina</option>
+                      <option>México</option>
+                      <option>Brasil</option>
+                      <option>Costa Rica</option>
+                      <option>Estados Unidos</option>
+                    </select>
+    
+                  </form>
+                </fieldset>
+
+                  </p>
+                 
+                <form action="/Formulario.html">
+                    
+                       
+                  <fieldset>
+                    <legend> <h3 class="Titulo"> ¿COMO QUIERES INICIAR SESION? </h3></legend>
+                          <label  for="name">Nombre de usuario</label>
+                          <br>
+                          <input class="A" type="text" id="name" name="user_name">
+                          <br>
+            
+                          <label for="mail">Contraseña</label>
+                          <br>
+                          <input class="A"type="text" id="lastname" name="user_name">
+                          <br>
+            
+                          <label for="msg">Vuelve a escribir la contraseña</label>
+                          <br>
+                          <input class="A"type="email" id="mail" name="user_mail">              <br>
+                       
+                
+        </form>
+      </fieldset>
+
+    
+      <form action="/Formulario.html">
+        <fieldset>
+          <legend> <h3 class="Titulo"> CONDICIONES DE registro </h3></legend>
+          <p>
+
+              DESEO RECIBIR INFORMACION DE LA UNIVERSIDAD <br>
+        
+            <input type="radio" name="CONDICIONESDEREGISTRO" value="Unavezaldia"> Una vez al dia
+        
+            <input type="radio" name="CONDICIONESDEREGISTRO" value="Unavezalasemana"> Una vez a la semana
+        
+            <input type="radio" name="CONDICIONESDEREGISTRO" value="Unavezalmes"> Una vez al mes
+            <br>
+            <input type="checkbox" name="deportes"> 
+            Acepto el acuerdo de sevicios, la declaracion de privacidad y la declaracion de uso de cookies
+
+
+        
+        </form>
+      </fieldset>
+      <br>
+          <input class="D" type="submit" value="Crear cuenta">
+         
+
+        
+
 </body>
 </html>
